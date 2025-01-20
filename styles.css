@@ -243,10 +243,120 @@
 
 
 
+/* OUR STORIES */
+.display-none{
+  display: none;
+}
+
+.story-container {
+  display: grid;
+  grid-template-areas:
+    "story-item-1 story-item-1 story-item-2 story-item-3"
+    "story-item-1 story-item-1 story-item-4 story-item-5"
+  ;
+  gap: 15px;
+}
+
+.story-item-1 {
+  grid-area: story-item-1;
+  border-radius: 14px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.205);
+}
+
+.story-item-2 {
+  grid-area: story-item-2;
+  border-radius: 14px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.205);
+}
+
+.story-item-3 {
+  grid-area: story-item-3;
+  border-radius: 14px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.205);
+}
+
+.story-item-4 {
+  grid-area: story-item-4;
+  border-radius: 14px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.205);
+}
+
+.story-item-5 {
+  grid-area: story-item-5;
+  border-radius: 14px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.205);
+}
+
+.item-description {
+  padding: 0px 10px;
+}
+
+.itm-p {
+  font-weight: 700px;
+  font-size: 2rem;
+  color: black;
+}
+
+.itm-p2 {
+  font-weight: 500px;
+  font-size: 1rem;
+  color: rgba(102, 102, 102, 1);
+}
+
+/* all item image width */
+.item-img1 img {
+  width: 100%;
+}
+
+.image-width {
+  width: 100%;
+}
 
 
+/* item button */
+
+.item-img1 {
+  position: relative;
+}
+
+.itm1-btn {
+  position: absolute;
+  z-index: 11;
+  bottom: -5px;
+  left: 9%;
+  font-size: 1rem;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 16px;
+}
 
 
+/* FOOTER SECTION */
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(1, 172, 253, 1);
+  height: 500px;
+}
+
+.kid-education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+.kid-logo{
+  display: flex;
+}
+
+.kid-education p{
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
 
 /* MEDIA QUERY FOR MOBILE */
 
@@ -295,7 +405,7 @@
   }
 
   .arrow {
-     display: none;
+    display: none;
   }
 
 }
