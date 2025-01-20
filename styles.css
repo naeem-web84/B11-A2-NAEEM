@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-body-fonts {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* WIDTH AND MARGIN ALL */
+
+.all-nav,
+.all-content,
+.banner {
+  max-width: 1050px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+  
+
+/* SHARED STYLE */
+.nav-ul33 {
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+ 
+
+
+
+/* NAVBAR DESIGN */
+.all-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-h3 {
+  font-size: 2rem;
+  font-weight: 700px;
+  padding-left: 5px;
+}
+
+.ul-1 ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.li-1 {
+  color: orange;
+}
+
+.li-2 {
+  color: skyblue;
+}
+
+.li-3 {
+  color: rgba(5, 212, 223, 1);
+}
+
+.li-4 {
+  color: rgba(93, 88, 239, 1);
+}
+
+.btn button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: 600px;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.right-logo i{
+  font-size: 40px;
+  display: none;
+}
+
+
+/* BANNER CONTENT */
+.banner{
+display: flex;
+gap: 40px;
+justify-content: center;
+align-items: center;
+}
+
+
+.banner-content h3{
+  font-weight: 700px;
+  font-size: 3.3rem;
+  margin-bottom: 0px;
+}
+
+.color-1{
+   color: orange;
+}
+ 
+.color-3{
+   color: rgba(1, 172, 253, 1);
+}
+
+.banner-content p{
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.banner-content button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(6, 6, 6);
+  color: white;
+  font-weight: 600px;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media screen and (max-width:575.98px){
+  .btn, .ul-1, .logo-h3{
+    display: none;
+  }
+  .all-nav{
+    border: border 2px solid orange;
+  }
+.logo-img{
+  margin-left: 10px;
+}
+  .right-logo i{
+    display:flex;
+    margin-right: 10px;
+  }
+
+  .banner{
+    flex-wrap: wrap-reverse;
+  }
+  .banner-image img{
+    width: 80%;
+     padding-left: 30px;
+     margin-bottom: 0px;
+  }
+
+  .banner-content{
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 5px;
+  }
+}
