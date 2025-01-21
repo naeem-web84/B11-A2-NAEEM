@@ -679,7 +679,7 @@
 }
 
 /* medium device */
-@media screen and (min-width: 576.1px) and (max-width: 768px) {
+@media screen and (min-width: 576.1px) and (max-width: 992px) {
   .header-1 {
     margin-bottom: 0px;
   }
