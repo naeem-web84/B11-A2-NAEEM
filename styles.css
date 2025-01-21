@@ -612,13 +612,11 @@
   }
 
   .story-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     grid-template-areas:
-      "story-2"
-      "story-3"
-      "story-4"
-      "story-5"
+      "story-2 story-3"
+      "story-4 story-5"
     ;
     gap: 10px;
   }
@@ -728,13 +726,11 @@
   }
 
   .story-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     grid-template-areas:
-      "story-2"
-      "story-3"
-      "story-4"
-      "story-5"
+      "story-2 story-3"
+      "story-4 story-5"
     ;
     gap: 10px;
   }
