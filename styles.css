@@ -7,7 +7,7 @@
 }
 
 /* WIDTH AND MARGIN ALL */
-
+ 
 .all-nav,
 .all-content,
 .banner {
@@ -16,14 +16,16 @@
   box-sizing: border-box;
 }
 
-
+ 
 /* SHARED STYLE */
 .nav-ul33 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 20px;
 }
 
-
+.nav-ul33 li a{
+  text-decoration: none;
+}
 
 
 
@@ -42,7 +44,7 @@
 
 .logo-h3 {
   font-size: 2rem;
-  font-weight: 700px;
+  font-weight: 700;
   padding-left: 5px;
 }
 
@@ -73,13 +75,13 @@
   border-radius: 10px;
   background-color: orange;
   color: white;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 1.1rem;
   border: none;
 }
 
 .right-logo i {
-  font-size: 40px;
+  font-size: 2.5rem;
   display: none;
 }
 
@@ -95,7 +97,7 @@
 
 
 .banner-content h3 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 3.3rem;
   margin-bottom: 0px;
 }
@@ -119,7 +121,7 @@
   border-radius: 10px;
   background-color: rgb(6, 6, 6);
   color: white;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 1.1rem;
   border: none;
   margin-top: 30px;
@@ -132,7 +134,7 @@
 
 /* CURRICULAM */
 .curriculam h2 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 2.7rem;
   color: black;
   text-align: center;
@@ -172,14 +174,14 @@
 
 
 .box h5 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 1.5rem;
   color: rgba(32, 32, 32, 1);
   margin-top: 20px;
 }
 
 .box p {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 1rem;
   color: rgba(128, 128, 128, 1);
   margin-top: 0px;
@@ -187,7 +189,7 @@
 
 .crr-btn-1 {
   border: none;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 1rem;
   color: rgb(12, 164, 224);
   background-color: white;
@@ -196,7 +198,7 @@
 
 .crr-btn-2 {
   border: none;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 1rem;
   color: rgb(248, 244, 6);
   background-color: white;
@@ -205,7 +207,7 @@
 
 .crr-btn-3 {
   border: none;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 1rem;
   color: rgb(83, 12, 224);
   background-color: white;
@@ -245,35 +247,178 @@
 
 
 /* OUR STORIES */
- 
 
-.story-container{
+.ourstory {
+  margin-top: 100px;
+}
+
+.ourstory h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.story-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
-  grid-area: 
-  "story-1 story-1 story-2 story-3"
-  "story-1 story-1 story-4 story-5"
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "story-1 story-1 story-2 story-3"
+    "story-1 story-1 story-4 story-5"
   ;
-  margin-top: 100px;
-  height: 400px;
-  background-color: red;
+  gap: 10px;
 }
 
-.story-1{
-grid-area: story-1;
+.story-box {
+  border-radius: 13px;
+  box-shadow: 0px 0px 25px 4px rgb(223, 210, 210);
 }
-.story-2{
-grid-area: story-2;
+
+.story-1 {
+  grid-area: story-1;
 }
-.story-3{
-grid-area: story-3;
+
+.story-2 {
+  grid-area: story-2;
 }
-.story-4{
-grid-area: story-4;
+
+.story-3 {
+  grid-area: story-3;
 }
-.story-5{
+
+.story-4 {
+  grid-area: story-4;
+}
+
+.story-5 {
   grid-area: story-5;
+}
+
+.st-img-1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.h5-1 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 15px 80px 0px 30px;
+}
+
+.p-1 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(102, 102, 102, 1);
+  margin: 40px 50px 30px 30px;
+}
+
+.story-2 h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px 10px 0px 20px;
+}
+
+.story-3 h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px 10px 0px 20px;
+}
+
+.story-4 h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px 10px 0px 20px;
+}
+
+.story-5 h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px 10px 5px 10px;
+}
+
+.image111 {
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  width: 100%;
+}
+
+/* our story button */
+.btn-11 {
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: .9rem;
+  color: rgb(250, 252, 253);
+  background-color: rgb(89, 212, 226);
+  padding: 8px;
+  margin-left: 30px;
+  transform: translatey(-65%);
+}
+
+.btn-12 {
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: .9rem;
+  color: rgb(250, 252, 253);
+  background-color: rgb(183, 213, 61);
+  padding: 8px;
+  margin-left: 30px;
+  transform: translatey(-65%);
+}
+
+.btn-13 {
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: .9rem;
+  color: rgb(250, 252, 253);
+  background-color: rgb(136, 105, 210);
+  padding: 8px;
+  margin-left: 30px;
+  transform: translatey(-65%);
+}
+
+.btn-14 {
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: .9rem;
+  color: rgb(250, 252, 253);
+  background-color: rgb(192, 80, 154);
+  padding: 8px;
+  margin-left: 30px;
+  transform: translatey(-65%);
+}
+
+.btn-15 {
+  position: relative;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: .9rem;
+  color: rgb(250, 252, 253);
+  background-color: rgb(210, 124, 74);
+  padding: 8px;
+  margin-left: 30px;
+  transform: translatey(-65%);
+}
+
+.btn-ourstry-bottom {
+  margin: 50px 0px 40px 45%;
+}
+
+.btn-ourstry-bottom button {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: rgb(197, 178, 178);
+  padding: 15px 35px;
 }
 
 /* FOOTER SECTION */
@@ -283,7 +428,6 @@ grid-area: story-4;
   justify-content: space-around;
   align-items: center;
   background-color: rgba(1, 172, 253, 1);
-  width: 100%;
   height: 400px;
 }
 
@@ -301,11 +445,11 @@ grid-area: story-4;
   align-items: center;
 }
 
-.kid-logo-img img{
+.kid-logo-img img {
   height: 80px;
 }
 
-.kid-logo h3{
+.kid-logo h3 {
   font-weight: 500px;
   font-size: 2rem;
   color: white;
@@ -316,50 +460,65 @@ grid-area: story-4;
   font-size: 1rem;
   color: white;
 }
- 
-.information ul{
+
+.information ul {
   list-style: none;
   color: white;
 }
 
-.information ul h4{
+.information ul h4 {
   font-weight: 600px;
   font-size: 1.4rem;
   margin: 10px;
 }
-.information ul li{
+
+.information ul li {
   margin: 15px;
 }
-.information ul li a{
+
+.information ul li a {
   text-decoration: none;
   color: white;
 }
-.social-logo{
-  margin-bottom: 120px;
-  /* margin-right: 50px; */
-}
-.social-logo h4{
-font-weight: 600px;
-font-size: 1.6rem;
-color: white;
-margin-bottom: 0px;
+
+#l-1 {
+  color: rgb(4, 52, 156);
 }
 
-.logo{
+#l-3 {
+  color: rgb(5, 219, 238);
+}
+
+#l-4 {
+  color: rgba(221, 75, 57, 1);
+}
+
+.social-logo {
+  margin-bottom: 120px;
+}
+
+.social-logo h4 {
+  font-weight: 600px;
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.logo {
   font-size: 30px;
   color: white;
   margin-top: 20px;
 }
 
 
- 
+
 
 
 /* MEDIA QUERY FOR MOBILE */
 
 @media screen and (max-width:575.98px) {
 
-  .header-1{
+  .header-1 {
     margin-bottom: 0px;
   }
 
@@ -398,15 +557,17 @@ margin-bottom: 0px;
     padding: 0px 10px;
     margin-top: 5px;
   }
-.all-content{
-  margin-top: 50px;
-  margin-bottom: 0px;
-} 
 
- .curriculam h2{
-  font-size: 1.5rem;
-  margin-bottom: 30px;
- }
+  .all-content {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .curriculam h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
   .curriculam-box {
     grid-template-columns: repeat(1, 1fr);
     margin: 10px auto;
@@ -418,25 +579,50 @@ margin-bottom: 0px;
     display: none;
   }
 
-.contact{ 
-  margin-top: 200px;
-} 
+  .contact {
+    margin-top: 200px;
+  }
 
-.footer-container{
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  align-items: flex-start;
-}
-.social-logo, .information{
-  margin: 0px;
-}
- .information ul{
-  margin: 0;
-  padding: 0;
- }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+  }
 
- .social-logo, .information, .kid-education{
-  padding-left: 15px;
- }
+  .social-logo,
+  .information {
+    margin: 0px;
+  }
+
+  .information ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-logo,
+  .information,
+  .kid-education {
+    padding-left: 15px;
+  }
+
+  .story-1 {
+    display: none;
+  }
+
+  .story-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "story-2"
+      "story-3"
+      "story-4"
+      "story-5"
+    ;
+    gap: 10px;
+  }
+
+  .btn-ourstry-bottom {
+   margin-left: 30%;
+  }
 }
