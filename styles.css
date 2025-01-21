@@ -267,13 +267,64 @@
 
 .kid-logo {
   display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kid-logo-img img{
+  height: 80px;
+}
+
+.kid-logo h3{
+  font-weight: 500px;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 25px;
 }
 
 .kid-education p {
   font-size: 1rem;
   color: white;
-  text-align: center;
 }
+ 
+.information ul{
+  list-style: none;
+  color: white;
+}
+
+.information ul h4{
+  font-weight: 600px;
+  font-size: 1.4rem;
+  margin: 10px;
+}
+.information ul li{
+  margin: 15px;
+}
+.information ul li a{
+  text-decoration: none;
+  color: white;
+}
+.social-logo{
+  margin-bottom: 120px;
+  /* margin-right: 50px; */
+}
+.social-logo h4{
+font-weight: 600px;
+font-size: 1.6rem;
+color: white;
+margin-bottom: 0px;
+}
+
+.logo{
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+}
+
+
+ 
+
 
 /* MEDIA QUERY FOR MOBILE */
 
@@ -321,7 +372,7 @@
 .all-content{
   margin-top: 50px;
   margin-bottom: 0px;
-}
+} 
 
  .curriculam h2{
   font-size: 1.5rem;
@@ -337,7 +388,26 @@
   .arrow {
     display: none;
   }
-.contact{
+
+.contact{ 
   margin-top: 200px;
+} 
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
 }
+.social-logo, .information{
+  margin: 0px;
+}
+ .information ul{
+  margin: 0;
+  padding: 0;
+ }
+
+ .social-logo, .information, .kid-education{
+  padding-left: 15px;
+ }
 }
