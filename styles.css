@@ -51,19 +51,19 @@
   gap: 30px;
 }
 
-.li-1 {
+.li-1 a{
   color: orange;
 }
 
-.li-2 {
+.li-2 a{
   color: skyblue;
 }
 
-.li-3 {
+.li-3 a{
   color: rgba(5, 212, 223, 1);
 }
 
-.li-4 {
+.li-4 a{
   color: rgba(93, 88, 239, 1);
 }
 
