@@ -127,6 +127,7 @@
   margin-top: 30px;
 }
 
+
 /* MAIN BODY BACKGROUND COLOR */
 .all-content {
   background-image: url(./assets/bg.png);
@@ -409,7 +410,7 @@
 }
 
 .btn-ourstry-bottom {
-  margin: 50px 0px 40px 45%;
+  margin: 50px 0px 0px 45%;
 }
 
 .btn-ourstry-bottom button {
@@ -623,7 +624,12 @@
   }
 
   .btn-ourstry-bottom {
-   margin-left: 30%;
+   margin-left: 33%;
+   margin-bottom: 10px;
+  }
+
+  .contact{
+    margin-top: 15px;
   }
 }
 
@@ -734,6 +740,11 @@
   }
 
   .btn-ourstry-bottom {
-   margin-left: 30%;
+   margin-left: 33%;
+   margin-bottom: 10px;
+  }
+
+  .contact{
+    margin-top: 15px;
   }
 }
