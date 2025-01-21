@@ -626,3 +626,114 @@
    margin-left: 30%;
   }
 }
+
+/* medium device */
+@media screen and (min-width: 576.1px) and (max-width: 768px) {
+  .header-1 {
+    margin-bottom: 0px;
+  }
+
+  #border-bottom {
+    width: 100%;
+    border-bottom: 2px solid orange;
+  }
+
+  .btn,
+  .ul-1,
+  .logo-h3 {
+    display: none;
+  }
+
+  .logo-img {
+    margin-left: 10px;
+  }
+
+  .right-logo i {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .banner {
+    flex-wrap: wrap-reverse;
+  }
+
+  .banner-image img {
+    width: 80%;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+
+  .banner-content {
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 5px;
+  }
+
+  .all-content {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .curriculam h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .curriculam-box {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px auto;
+    padding: 0px 5px;
+    text-align: center;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .contact {
+    margin-top: 200px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .social-logo,
+  .information {
+    margin: 0px;
+  }
+
+  .information ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-logo,
+  .information,
+  .kid-education {
+    padding-left: 15px;
+  }
+
+  .story-1 {
+    display: none;
+  }
+
+  .story-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "story-2"
+      "story-3"
+      "story-4"
+      "story-5"
+    ;
+    gap: 10px;
+  }
+
+  .btn-ourstry-bottom {
+   margin-left: 30%;
+  }
+}
