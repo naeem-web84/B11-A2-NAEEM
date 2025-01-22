@@ -10,7 +10,7 @@
 .all-nav,
 .all-content,
 .banner {
-  max-width: 1050px;
+  max-width: 80%;
   margin: 0px auto;
   box-sizing: border-box;
 }
@@ -263,14 +263,14 @@
 
 /* OUR STORIES */
 .ourstory-main{
-  max-width: 1440px;
+  max-width: 100%;
   background: linear-gradient(to top, rgba(222, 228, 134, 0.893) 0%, rgba(255, 255, 255, 0) 40%), url(./assets/bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
 }
 .ourstory {
-  max-width: 1050px;
+  max-width: 80%;
   margin: 0px auto;
   margin-top: 100px;
  
@@ -449,6 +449,8 @@
 /* FOOTER SECTION */
 
 .footer-container {
+  max-width: 100%;
+  margin: 0px auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -543,6 +545,13 @@
 
 @media screen and (max-width:575.98px) {
 
+  .all-nav,
+.banner {
+  max-width: 100%;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
   .header-1 {
     margin-bottom: 0px;
   }
@@ -596,7 +605,9 @@
   }
 
   .curriculam h2 {
-    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
     margin-bottom: 30px;
   }
 
@@ -680,12 +691,21 @@
 
 /* medium device */
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
+
+  .all-nav,
+  .banner {
+    max-width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+  }
+
   .header-1 {
     margin-bottom: 0px;
   }
 
   #border-bottom {
     width: 100%;
+    margin: 0px auto;
     border-bottom: 2px solid orange;
   }
 
@@ -726,7 +746,8 @@
   }
 
   .curriculam h2 {
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 3rem;
     margin-bottom: 30px;
   }
 
