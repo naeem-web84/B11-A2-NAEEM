@@ -273,7 +273,6 @@
   max-width: 80%;
   margin: 0px auto;
   margin-top: 100px;
- 
 }
 
 .ourstory h3 {
@@ -544,13 +543,18 @@
 /* MEDIA QUERY FOR MOBILE */
 
 @media screen and (max-width:575.98px) {
+  .all-content{
+  max-width: 90%;
+  margin: 0px auto;
+  box-sizing: border-box;
+} 
 
-  .all-nav,
+.all-nav,
 .banner {
   max-width: 100%;
   margin: 0px auto;
   box-sizing: border-box;
-}
+} 
 
   .header-1 {
     margin-bottom: 0px;
@@ -651,6 +655,11 @@
 
   .social-logo {
     margin-bottom: 30px;
+  }
+  
+  .ourstory {
+    max-width: 90%;
+    margin: 0px auto;
   }
 
   .story-1 {
