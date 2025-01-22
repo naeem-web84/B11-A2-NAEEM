@@ -544,26 +544,25 @@
 
 @media screen and (max-width:575.98px) {
   .all-content{
-  max-width: 90%;
+  max-width: 95%;
   margin: 0px auto;
   box-sizing: border-box;
 } 
 
 .all-nav,
 .banner {
-  max-width: 100%;
+  max-width: 80%;
   margin: 0px auto;
   box-sizing: border-box;
-} 
+}
 
   .header-1 {
     margin-bottom: 0px;
   }
 
-  #border-bottom {
-    width: 100%;
-    border-bottom: 2px solid orange;
-    margin-bottom: 10px;
+  .border-down{
+    border: 1px solid orange;
+    margin-top: 5px;
   }
 
   .btn,
@@ -700,10 +699,10 @@
 
 /* medium device */
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
-
+  
   .all-nav,
   .banner {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0px auto;
     box-sizing: border-box;
   }
@@ -712,10 +711,10 @@
     margin-bottom: 0px;
   }
 
-  #border-bottom {
-    width: 100%;
-    margin: 0px auto;
-    border-bottom: 2px solid orange;
+  .border-down{
+    border: 1px solid orange;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .btn,
